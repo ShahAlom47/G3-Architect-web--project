@@ -1,0 +1,179 @@
+/* for mobile device */
+
+@media screen and (max-width: 575px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 10px 0px;
+    }
+
+    nav ul li a {
+        margin: 15px;
+    }
+
+    .banner {
+        max-width: 90%;
+    }
+
+    .banner-content {
+        width: 80%;
+    }
+
+    .banner-title {
+        font-size: 2.2rem;
+    }
+
+    /* feature start  */
+
+    .Features-section {
+        max-width: 90%;
+    }
+
+    .Features-container {
+        flex-direction: column-reverse;
+    }
+
+    .f-image-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* feature end  */
+
+
+    /* experience start */
+    .experience-container {
+
+        flex-direction: column;
+    }
+
+    .experience-title {
+
+        font-size: 1.6rem
+    }
+
+
+    .experience-container .contant {
+        width: 95%;
+        margin: auto;
+
+    }
+
+    .experience-container .img-box {
+        width: 90%;
+        margin: auto;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .experience-tag{
+    padding: 10px;
+    }
+    .experience-tag h3  {
+        font-size: 1em;  
+    }
+    .experience-tag p{
+        font-size: 0.6rem; 
+    }
+
+
+
+    /* experience end */
+ /* fact start */
+
+
+ /* fact end */
+
+.fact-container {
+    flex-direction: column;
+ 
+}
+.facts .cmn-text-style , .fact-title{
+    text-align: center;
+    width: 100%;
+}
+.fact-box {
+    margin: auto;
+   }
+/* fact end */
+
+/* <!-- Sponspors section start --> */
+
+.sponsor-container{
+    flex-direction: column;
+   gap: 20px;
+    align-items: center;
+    
+}
+
+
+/* <!-- Sponspors section end -->/ */
+
+}
+
+@media screen and (min-width: 575px) and (max-width:920px) {
+  
+  
+    .Features-container {
+        flex-direction: column-reverse;
+    
+}
+
+ /* experience start */
+
+ .experience-container {
+
+    flex-direction: column;
+}
+
+
+
+
+.experience-container .contant {
+    width: 95%;
+    margin: auto;
+
+}
+
+.experience-container .img-box {
+    width: 85%;
+    margin:auto;
+    height: 400px;
+    padding-bottom: 50px;
+}
+ /* experience end */
+
+ /* fact start */
+
+ .fact-container {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+ 
+}
+.facts .cmn-text-style , .fact-title{
+    text-align: center;
+    width: 100%;
+}
+.fact-box {
+ margin: auto;
+}
+ /* fact end */
+
+/* <!-- Sponspors section start --> */
+
+.sponsor-container{
+ flex-wrap: wrap;
+    
+}
+.sponsor-container img{
+    padding: 10px 10px;
+    margin: auto;
+}
+
+
+/* <!-- Sponspors section end -->/ */
+
+
+}
